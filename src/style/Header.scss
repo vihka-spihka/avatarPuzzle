@@ -1,0 +1,15 @@
+#siteHeader {
+	padding: 20px;
+	background: repeating-radial-gradient(circle, #908484, #908484 10px, #AA8EBF 10px, #AA8EBF 20px);
+
+	&__logoImg {
+		max-height: 100px;
+		max-width: 100px;
+	}
+
+	&__logoutBtn {
+		float: right;
+	}
+}
+
+// B9ECFE 82DDFF

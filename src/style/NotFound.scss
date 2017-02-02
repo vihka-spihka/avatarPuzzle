@@ -1,0 +1,17 @@
+#siteBody {
+	background-color: #908484;
+}
+
+#ff {
+	min-height: 70%;
+}
+
+.errorMsg__link {
+	color: #333;
+
+		&:hover, &:focus {
+			color: black;
+			text-shadow: 2px 2px 1px #908484;
+			text-decoration: none;
+		}	
+}
