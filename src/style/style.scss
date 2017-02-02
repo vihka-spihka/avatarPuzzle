@@ -1,0 +1,73 @@
+@font-face {
+	font-family: Slot Cyrillic;
+	src: local("Slot Cyrillic"), url(../fonts/Slot_Cyrillic.ttf);
+}
+
+@font-face {
+	font-family: Rafale BG;
+	src: local("Rafale BG"), url(../fonts/Rafale_BG.ttf);
+}
+
+.header {
+	&--firstLevel {
+		font: {
+			size: 5em;
+			family: Slot Cyrillic;
+		}
+		margin: 0;
+	}
+
+	&--secondLevel {
+		font: {
+			size: 3.5em;
+			family: Rafale BG;
+		}
+	}
+
+	&--thirdLevel {
+		font: {
+			size: 3em;
+			family: Slot Cyrillic;
+		}
+		color: #333;
+	}
+}
+
+p {
+	font: {
+		size: 2.0em;
+		family: Rafale BG;
+	}
+
+}
+
+.btn {
+	
+	font-family: Rafale BG;
+
+	&:link, &:visited {
+		color: black;
+	}
+
+	&:focus, &:hover, &:active {
+		box-shadow: 0 0 10px 5px #AA8EBF;
+	}
+
+	&--inShadow {
+		box-shadow: 2px 2px 7px black;
+	}
+
+	& a {
+		color: black;
+		text-shadow: 2px 2px 1px #908484;
+		
+		&:focus, &:hover, &:active {
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
+
+#siteBody {
+	background-color: #908484;
+}

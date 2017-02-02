@@ -1,0 +1,26 @@
+#description__text {
+	margin: 10px;
+}
+
+.stages {
+	&__stageItem {
+
+		&:focus, &:hover {
+			box-shadow: 0 0 10px 5px #AA8EBF;
+		}
+	}
+}
+
+.stageItem {
+	&__stageCaption {
+		& a {
+			color: #333;
+			
+			&:hover, &:focus {
+				color: black;
+				text-decoration: none;
+				text-shadow: 2px 2px 1px #908484;
+			}
+		}
+	}
+}

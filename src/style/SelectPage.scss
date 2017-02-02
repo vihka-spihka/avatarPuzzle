@@ -1,0 +1,18 @@
+li.media {
+	margin-top: 0;
+}
+
+#siteBody {
+	&__selectZone {
+		max-height: 400px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+}
+
+.friendListItem {
+	&__userAvatar {
+		height: 50px;
+		width: 50px;
+	}
+}
