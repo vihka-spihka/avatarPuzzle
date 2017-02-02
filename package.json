@@ -6,6 +6,11 @@
     "create-react-app-sass": "^1.1.0",
     "react-scripts": "0.8.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihka-spihka/avatarPuzzle.git"
+  },
+  "author": "Viktoriya Knyazeva",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.4.2",
