@@ -22,7 +22,7 @@ class WelcomePage extends Component {
 						<div className="row">
 							<div className="col-xs-12">
 								<button id="siteBody__btn--toLogin" className="btn btn-lg center-block btn--inShadow">
-									<Link to="/login">Погнали!</Link>
+									<Link to="/login">Погнали! <span className="glyphicon glyphicon-menu-right"></span></Link>
 								</button>
 							</div>
 						</div>
