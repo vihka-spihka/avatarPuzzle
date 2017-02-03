@@ -1,0 +1,2 @@
+export const AUTHORIZATION_SUCCESS = 'AUTHORIZATION_SUCCESS';
+export const LOG_OUT = 'LOG_OUT';

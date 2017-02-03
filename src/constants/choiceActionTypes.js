@@ -1,0 +1,3 @@
+export const SELECT_FRIEND = 'SELECT_FRIEND';
+export const RANDOM_SELECT = 'RANDOM_SELECT';
+export const CHANGE_SELECT = 'CHANGE_SELECT';

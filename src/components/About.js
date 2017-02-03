@@ -9,10 +9,10 @@ const About = () => {
 		<div>
 			<Header />
 				<main id="siteBody" className="row">
-					<div className="col-xs-12">
-						<h2 className="text-center">О проекте AvatarPuzzle</h2>
-						<p>AvatarPuzzle является выпускным проектом, выполненным по окончании курсов по frontend-разработке в компании Epam.</p>
-					</div>
+					<section className="col-xs-12">
+						<h2 className="header--secondLevel text-center">О проекте AvatarPuzzle</h2>
+						<p>AvatarPuzzle является выпускным проектом, выполненным по окончанию курсов frontend-разработки в компании Epam.</p>
+					</section>
 				</main>
 			<Footer />
 		</div>

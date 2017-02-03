@@ -6,8 +6,8 @@ import vkIcon from '../img/welcomePage_vk_icon.png';
 import targetIcon from '../img/welcomePage_target_icon.png';
 import dreamsIcon from '../img/welcomePage_dreamsIcon.png';
 
-var Instruction = (props) => {
-	return(
+const Instruction = (props) => {
+	return (
 		<section id="siteBody__instruction" className="row">
 			<div className="col-xs-12">
 				<div id="instruction__description" className="row">

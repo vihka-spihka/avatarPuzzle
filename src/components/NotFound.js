@@ -12,7 +12,7 @@ const NotFound = (props) => {
 		<div>
 			<Header />
 			<main id="siteBody" className="row">
-				<div id="ff" className="col-xs-12">
+				<section id="ff" className="col-xs-12">
 					<img src={imgNotFound} className="center-block" alt="Страница не найдена" />
 					<h2 className="header--secondLevel text-center">
 						Ошибка #404 Страница не найдена
@@ -29,7 +29,7 @@ const NotFound = (props) => {
 					<p className="siteBody__errorMsg text-center">
 						Вернитесь на сайт <Link to="/" className="errorMsg__link">avatarPuzzle.com</Link>
 					</p>
-				</div>
+				</section>
 			</main>
 			<Footer />
 		</div>

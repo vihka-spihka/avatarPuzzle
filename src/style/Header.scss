@@ -5,11 +5,28 @@
 	&__logoImg {
 		max-height: 100px;
 		max-width: 100px;
+
+		&:hover, &:focus {
+			animation: rotateLogo 2s;
+			// animation-direction: alternate;
+		}
 	}
 
 	&__logoutBtn {
 		float: right;
 	}
+
+	&__helloUser {
+		display: inline-block;
+		margin-right: 10px;
+	}
+}
+
+@keyframes rotateLogo {
+	50% {
+		transform: rotateY(180deg);
+	}
+	
 }
 
 // B9ECFE 82DDFF

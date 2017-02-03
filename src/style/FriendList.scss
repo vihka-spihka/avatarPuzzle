@@ -1,0 +1,55 @@
+li.media {
+	margin-top: 0;
+}
+
+#siteBody {
+	&__friendList {
+		max-height: 400px;
+		padding: 10px;
+		overflow: auto;
+		background-color: #AA8EBF;
+		border-radius: 4px;
+	}
+
+	&__selectBtn {
+		margin-top: 10px;
+	}
+}
+
+#siteBody__friendList > .friendList__friendListItem {
+	&:hover, &:focus {
+		background-color: #00A4AE;
+	}
+}
+
+.friendList {
+	&__friendListItem {
+		border-top: 1px solid black;
+	}
+}
+
+.friendListItem {
+	&__userAvatar {
+		height: 50px;
+		width: 50px;
+	}
+
+	&__userName {
+		line-height: 2em;
+	}
+}
+
+.media > .media-body > .media-heading {
+	margin-bottom: 0;
+}
+
+.media > .media-left {
+	padding: {
+		top: 3px;
+		left: 3px;
+	}
+}
+
+.choosed {
+	background-color: #00A4AE;
+}
