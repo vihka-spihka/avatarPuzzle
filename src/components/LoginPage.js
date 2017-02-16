@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './Header';
-import RegForm from '../containers/RegForm';
+import RegForm from './RegForm';
 import Footer from './Footer';
 import '../style/style.css';
 

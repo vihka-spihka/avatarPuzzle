@@ -1,0 +1,44 @@
+[
+	{
+		"friendId": "12",
+		"friendName": "Павел",
+		"friendSurname": "Лебедь",
+		"friendAvatar": "../img/12.jpg"
+	},
+	{
+		"friendId": "14",
+		"friendName": "Настя",
+		"friendSurname": "Ларина",
+		"friendAvatar": "../img/14.jpg"
+	},
+	{
+		"friendId": "q2",
+		"friendName": "Антон",
+		"friendSurname": "Харитонов",
+		"friendAvatar": "../img/q2.jpg"
+	},
+	{
+		"friendId": "1uu",
+		"friendName": "Павел",
+		"friendSurname": "Самбейко",
+		"friendAvatar": "../img/1uu.jpg"
+	},
+	{
+		"friendId": "289",
+		"friendName": "San",
+		"friendSurname": "Francisco",
+		"friendAvatar": "../img/289.jpg"
+	},
+	{
+		"friendId": "fff",
+		"friendName": "Саша",
+		"friendSurname": "Калоша",
+		"friendAvatar": "../img/fff.jpg"
+	},
+	{
+		"friendId": "daaaasha",
+		"friendName": "Dasha",
+		"friendSurname": "Lol",
+		"friendAvatar": "../img/daaaasha.jpg"
+	}
+]

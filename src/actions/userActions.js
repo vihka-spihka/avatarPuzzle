@@ -12,5 +12,7 @@ export function loginSuccess(userId, userName) {
 }
 
 export function logout() {
-	type: LOG_OUT
+	return {
+		type: LOG_OUT
+	}
 }

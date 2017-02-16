@@ -11,10 +11,14 @@ export function selectFriend (friendId, friendAvatar) {
 }
 
 export function randomSelect (randomChoice) {
-	type: RANDOM_SELECT,
-	randomChoice
+	return {
+		type: RANDOM_SELECT,
+		randomChoice
+	}
 }
 
 export function changeSelect () {
-	type: CHANGE_SELECT
+	return {
+		type: CHANGE_SELECT
+	}
 }
