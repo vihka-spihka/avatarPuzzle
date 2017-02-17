@@ -4,9 +4,9 @@ import '../style/Game.css';
 import puzzleImg from '../img/letter.jpg';
 import $ from 'jquery';
 
-// import '../style/jquery.jqpuzzle.css';
-// import '../libs/jquery.mb.browser.min';
-// import '../script/jquery.jqpuzzle.min';
+import '../style/jquery.jqpuzzle.css';
+import '../libs/jquery.mb.browser.min';
+import '../script/jquery.jqpuzzle.min';
 
 class Game extends Component {
 
@@ -39,7 +39,7 @@ class Game extends Component {
 		return (
 			<section id="siteBody__game" className="row">
 				<div className="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
-					<img id="puzzleImg" src={puzzleImg} className="jqPuzzle jqp-r4-c5-h11-NCDE center-block" alt="Puzzle" />
+					<img id="puzzleImg" src={puzzleImg} className="img-responsive jqPuzzle jqp-r4-c5-h11-NCDE center-block" alt="Puzzle" />
 				</div>
 			</section>
 		);

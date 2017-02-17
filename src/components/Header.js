@@ -1,19 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router';
-//import { bindActionCreators } from 'redux';
-//import { connect } from 'react-redux';
 
 import '../style/Header.css';
 import HelloUser from '../containers/HelloUser'
 import logo from '../img/logo.png';
-//import User from '../containers/User';
-//import * as userActions from '../actions/userActions';
 
 const Header = (props) => {
-
-		/*const user = this.props;
-		const { handleLogin } = this.props.userActions;*/
-
 	return (
 		<header id="siteHeader" className="row">
 			<div className="col-xs-12">
@@ -28,19 +20,3 @@ const Header = (props) => {
 }
 
 export default Header;
-
-// function mapStateToProps(state) {
-// 	return {
-// 		user: state.user
-// 	}
-// }
-
-// function mapDispatchToProps(dispatch) {
-// 	return {
-// 		userActions: bindActionCreators(userActions, dispatch)
-// 	}
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(Header)
-
-// <button id="siteHeader__logoutBtn" className="btn btn--inShadow"><Link to="/">Выйти</Link></button>

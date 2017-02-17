@@ -4,8 +4,8 @@ import { Route, IndexRoute } from 'react-router';
 import App from '../components/App';
 import WelcomePage from '../components/WelcomePage';
 import LoginPage from '../components/LoginPage';
-import SelectPage from '../components/SelectPage';
-import GamePage from '../components/GamePage';
+import SelectPage from '../containers/SelectPage';
+import GamePage from '../containers/GamePage';
 import About from '../components/About';
 import NotFound from '../components/NotFound';
 

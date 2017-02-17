@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 import $ from 'jquery';
 
 import * as listActions from '../actions/listActions';
-import * as data from '../data/friendList.json';
+// import * as data from '../data/friendList.json';
 
 import '../style/FriendList.css';
-// import avatar from '../img/logo.png';
+import avatar from '../img/letter.jpg';
 
 class FriendList extends Component {
 	
@@ -15,41 +15,23 @@ class FriendList extends Component {
 	}
 
 	componentWillMount() {
-
-		const clientId = 5871128;
-		var urlHash = document.location.hash;
-		console.log('redirect url hash',urlHash);
-		const accessToken = urlHash.substring(14, 99);
-		console.log('accessToken', accessToken);
-		var userId = urlHash.substr(125);
-		console.log('user id', userId);
-
-		const userInfoRequestUrl = 'https://api.vk.com/method/users.get?user_ids=' + userId + '&fields=bdate&v=5.62';
-
-		//Promise, that returns error because of the localhost
-		
-		// const promise = new Promise((resolve, reject) => {
-		// 	$.ajax({
-		// 		url: userInfoRequestUrl,
-		// 		success: function (response) {
-		// 			resolve(response);
-		// 		},
-		// 		error: function(...args) {
-		// 			reject(args);
-		// 		}
-		// 	})
-		// });
-
-		// promise.then(response => {
-		// 	 console.log(response);
-		// 	let user = JSON.parse(response);
-		// 	return user;
-		// })
-		// .catch((error) => {
-		// 	console.log('Error cached: ', error);
-		// });
-
+		var data = 
+	{
+		"friendId": "14",
+		"friendName": "Настя",
+		"friendSurname": "Ларина",
+		"friendAvatar": "../img/14.jpg"
+	};
+		// var friends = JSON.parse(data);
+		console.log('friensList data', data)
 		this.props.load(data);
+	}
+
+	componentDidMount() {
+		$('#siteBody__friendList').on('click','.friendList__friendListItem' , (e) => {
+			console.log('Destination',e.target);
+			e.target.classList.add('choosed');
+		});
 	}
 
 
@@ -58,16 +40,16 @@ class FriendList extends Component {
 			<section className="row">
 				<div className="col-xs-12">
 					<ul id="siteBody__friendList" className="media-list">
-						{this.props.map((index, item) => 
-						<li key={index} className="friendList__friendListItem media">
+						
+						<li className="friendList__friendListItem media">
 							<div className="media-left">
-								<img className="media-object friendListItem__userAvatar" src={item.imgUrl} alt="User avatar" />
+								<img className="media-object friendListItem__userAvatar" src={avatar} alt="User avatar" />
 							</div>
 							<div className="media-body">
-								<p className="media-heading friendListItem__userName">{item.name} {item.surname}</p>
+								<p className="media-heading friendListItem__userName">Ололо Ололоевич</p>
 							</div>
 						</li>
-						)}
+						
 					</ul>
 				</div>
 			</section>

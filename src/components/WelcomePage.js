@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 import Header from './Header';
 import Footer from './Footer';
 import Instruction from './Instruction';
-import '../style/WelcomePage.css';
 
 const WelcomePage = (props) => {
 	return (

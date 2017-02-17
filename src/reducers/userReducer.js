@@ -4,7 +4,7 @@ const initialState = {
 	user: {
 		authorizated: false,
 		userId: '',
-		userName: 'vika'
+		userName: ''
 	}
 }
 
